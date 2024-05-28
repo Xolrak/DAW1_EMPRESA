@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(to bottom, #87CEEB, #FFFFFF);
   margin: 0px;
   font-family: "SoDo Sans SemiBold";
   transition: .3s ease all;
