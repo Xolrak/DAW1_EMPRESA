@@ -12,63 +12,64 @@
 
   <style>
     /* Estilos generales */
-body {
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
+    body {
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
 
-.styled-form {
-  max-width: 400px;
-  margin: 50px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .styled-form {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-.styled-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
+    .styled-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
 
-.styled-input,
-.styled-textarea {
-  width: calc(100% - 24px); /* Restar 24px para dejar espacio para el borde y el relleno */
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  transition: border-color 0.3s;
-}
+    .styled-input,
+    .styled-textarea {
+      width: calc(100% - 24px);
+      /* Restar 24px para dejar espacio para el borde y el relleno */
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
 
-.styled-input:focus,
-.styled-textarea:focus {
-  border-color: #4CAF50; /* Cambiar el color del borde al enfocar el campo */
-}
+    .styled-input:focus,
+    .styled-textarea:focus {
+      border-color: #4CAF50;
+      /* Cambiar el color del borde al enfocar el campo */
+    }
 
-.styled-textarea {
-  height: 100px;
-}
+    .styled-textarea {
+      height: 100px;
+    }
 
-.styled-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4CAF50;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-}
+    .styled-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+    }
 
-.styled-button:hover {
-  background-color: #45a049;
-}
-
+    .styled-button:hover {
+      background-color: #45a049;
+    }
   </style>
 </head>
 
@@ -82,7 +83,7 @@ body {
         <a href="./index.html" target="_self" class="tooltip">Inicio
           <span class="tooltiptext">Ir a la página de inicio</span>
         </a>
-      </div>          
+      </div>
       <div>
         <a href="./Quienes.Somos.html" target="_self" class="tooltip">Quienes Somos
           <span class="tooltiptext">Más sobre nosotros</span>
@@ -98,9 +99,9 @@ body {
           <span class="tooltiptext">Descubre nuestros servicios</span>
         </a>
       </div>
-      
 
-      
+
+
     </div>
     <div class="navbar-right">
       <div class="encontrar-taller">
@@ -118,7 +119,7 @@ body {
   </div>
   <div class="container">
     <div class="row">
-        <h1 style="text-shadow: 2px 2px 4px rgba(44, 30, 30, 0.5);">Contáctanos</h1>
+      <h1 style="text-shadow: 2px 2px 4px rgba(44, 30, 30, 0.5);">Contáctanos</h1>
     </div>
     <div class="row">
       <h4 style="text-align:center">!Esperando que el aire envie el mensaje¡</h4>
@@ -126,16 +127,16 @@ body {
     <form action="#" method="post" class="styled-form">
       <label for="nombre">Nombre completo:</label>
       <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo" class="styled-input">
-    
+
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required placeholder="Email" class="styled-input">
-    
+
       <label for="telefono">Teléfono:</label>
       <input type="tel" id="telefono" name="telefono" required placeholder="Teléfono" class="styled-input">
-    
+
       <label for="mensaje">Mensaje:</label>
       <textarea id="mensaje" name="mensaje" required placeholder="Mensaje" class="styled-textarea"></textarea>
-    
+
       <button type="submit" class="styled-button">Enviar</button>
     </form>
 
